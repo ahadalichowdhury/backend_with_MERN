@@ -1,0 +1,29 @@
+.nav{
+    background-color: #f89999;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav li.active{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.row{
+    float: left;
+    width: 30%;
+}
+
+img{
+    width: 90%;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
