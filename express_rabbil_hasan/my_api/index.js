@@ -1,6 +1,6 @@
-
 const app = require("./app")
+require('dotenv').config({ path: 'config.env' })
 
-app.listen(5000, function (){
-    console.log("success");
+app.listen(process.env.RUNNING_PORT, function (){
+    console.log("This is from env"+" "+  process.env.RUNNING_PORT);
 })
